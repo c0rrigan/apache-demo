@@ -1,0 +1,31 @@
+html{
+    font-family: sans-serif;
+    min-width: auto;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+
+}
+
+.silver-backgr{
+    background: linear-gradient(#bbbfca, #f4f4f2);
+}
+
+.red-backgr{
+    background: no-repeat linear-gradient(#f05454, #707070);
+}
+
+.blue-backgr{
+    background: no-repeat linear-gradient(#30475e, #9088d4);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+img{
+    width: 20%;
+}
